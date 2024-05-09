@@ -1,0 +1,326 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    
+
+
+
+
+}
+
+.contenedor {
+    display: grid;
+    grid-template-areas: "header header header"
+                         "main  main     aside"
+                         "footer footer footer";
+}
+
+header {
+    background-color: rgba(64, 47, 109, 0.603);
+    grid-area: header;
+    width: 100%;
+    height: 75%;
+    clear: both;
+    content: '';
+    font-size: 20px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+body {
+
+    color: white;
+    background-color: rgba(70, 68, 68, 0.856);
+    font-family: "Platypi", serif;
+
+}
+nav{
+    
+    padding: 10px 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+li {
+    
+    background-color: rgb(49, 49, 138);
+    list-style: none;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    text-decoration: none;
+
+    
+}
+
+
+a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    color: rgb(209, 58, 3);
+}
+    
+main {
+    grid-area: main;
+    margin: 7px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    
+}
+
+article{
+    padding-left: 10px;
+}
+aside {
+    grid-area: aside;
+    margin-top: 150px;
+    color: blueviolet;
+    font-size: 1.3em;
+    text-align: center;
+    /*background-color: rgb(92, 91, 91);*/
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(49, 49, 138);
+    margin: 10px;
+    width: 100%;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    text-align: center;
+    border: 3px rgba(15, 14, 14, 0.877) solid;
+    border-radius: 15px;
+}
+
+
+
+
+.parrafo-aside {
+    background-color: rgb(105, 186, 206);
+    border: 4px rgb(49, 48, 48);
+    border-radius: 10px;
+    color: rgb(179, 241, 228);
+    font-size: 1em;
+    margin: 10px;
+    
+}
+
+
+
+
+
+.footerlista {
+    display: flex;
+    flex-direction:initial;
+    position: relative;
+    justify-content:center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+p,
+h4 {
+    color: rgb(1, 54, 1);
+    font-style: normal;
+    font-family: "Platypi", serif;
+    font-size: 1em;
+    
+
+    /*atributos de parrafos index*/
+}
+p{
+    padding: 20px;
+    margin-left:  5px;
+    border: 4px black solid;
+    border-radius: 10px;
+    background-color: rgba(148, 148, 148, 0.712);
+    
+
+}
+
+h1 {
+    color: rgb(209, 58, 3);
+    font-size: 3em;
+}
+h2{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 2em;
+}
+h3{
+    color: crimson;
+    text-align: left;
+    font-size: 1.8em;
+    padding-left: 5px;
+}
+
+h4 {
+    color: black;
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 5px
+}
+h5{
+    color: black;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+
+h6 {
+    text-align: center;
+    color: gainsboro;
+    font-size: 0.6em;
+}
+
+form{
+    color: black;
+    font-size: small;
+}
+
+/*tabla de horarios*/
+
+
+.lunes-a-jueves {
+    color: rgb(46, 31, 116);
+    font-size: 2em;
+}
+
+.viernes {
+    color: rgb(255, 29, 29);
+    font-size: 2em;
+}
+
+.sabado {
+    color: rgb(1, 173, 9);
+    font-size: 2em;
+
+}
+
+.horarios-laj {
+    color: rgb(46, 31, 116);
+    font-size: 1.6em;
+    /*font-style: oblique; no quedaba en cursiva poque en el head tenia el estilo normal*/
+}
+
+.horarios-v {
+    color: rgb(255, 29, 29);
+    font-size: 1.6em;
+
+
+}
+
+.horarios-s {
+    color: rgb(1, 173, 9);
+    font-size: 1.6em;
+
+
+}
+
+
+
+
+.horarios {
+    border: 5px red double;
+
+
+}
+
+.main-galeria{
+    grid-area: main;
+    justify-content: center;
+    width: 100%;
+    margin: 7px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    
+}
+.navbar-brand{
+    font-family: "Platypi", serif;
+    font-size: xx-large;
+    
+}
+.collapse{
+    font-size:large;
+    font-family: "Platypi", serif;
+    padding: 10px 0;
+    width: 500px;
+    text-decoration: none;
+    list-style: none;
+    
+
+li {
+    
+    background-color: rgb(49, 49, 138);
+    list-style: none;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    text-decoration: none;
+
+    
+}
+
+
+a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    color: rgb(209, 58, 3);
+}
+
+}
+/*.active.nav-link{
+    aria-current.nav-link
+}
+
+/* variables de carrusel
+
+$carousel-control-color:             $white;
+$carousel-control-width:             15%;
+$carousel-control-opacity:           .5;
+$carousel-control-hover-opacity:     .9;
+$carousel-control-transition:        opacity .15s ease;
+
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       $white;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+$carousel-caption-width:             70%;
+$carousel-caption-color:             $white;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$carousel-control-icon-width:        2rem;
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)*/
